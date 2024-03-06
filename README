@@ -1,1 +1,28 @@
 The team's work on iris setosa multipleNN
+Here is the layout:
+```
+gg_week_iris/
+│
+├── data/                     # Data directory
+│   ├── raw/                  # Raw data
+│   └── processed/            # Processed data
+│
+├── docs/                     # Documentation files
+│
+├── notebooks/                # Jupyter notebooks
+│
+├── src/                      # Source code directory
+│   └── gg_week_iris/           # A package within your project
+│       ├── __init__.py       # Makes my_project a Python package
+│       ├── nn.py             # A module in your package
+│       └── other_modules.py        # Another module in your package
+│
+├── tests/                    # Test directory
+│   ├── __init__.py           # Makes tests a Python module
+│   └── test_nn.py            # Test for module1
+│
+├── .gitignore                # Specifies what to ignore in version control
+├── pyproject.toml            # Project metadata and dependencies
+├── README.md                 # Project overview and guide
+└── requirements.txt          # (Optional) Requirements file, if needed alongside pyproject.toml for compatibility
+```
